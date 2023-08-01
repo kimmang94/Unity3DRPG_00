@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 05fe208e4c2f6e04fa130c00ae1369d8, type: 2}
 --- !u!1001 &129429840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1830,6 +1830,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6637066913132599085, guid: c506bcc6d049b4041afddab1c1d9468f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4137683058752652214}
+    - targetCorrespondingSourceObject: {fileID: 6637066913132599085, guid: c506bcc6d049b4041afddab1c1d9468f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4137683058752652219}
   m_SourcePrefab: {fileID: 100100000, guid: c506bcc6d049b4041afddab1c1d9468f, type: 3}
 --- !u!1 &4137683058752652213 stripped
 GameObject:
@@ -1858,3 +1861,16 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &4137683058752652219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4137683058752652213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050c657e63e0d344cb8beea2ddc0160d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1897254302}
